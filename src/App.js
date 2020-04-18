@@ -30,7 +30,7 @@ function Repo({ repo, handleLike }) {
           style={styles.likeText}
           testID={`repository-likes-${repo.id}`}
         >
-          {`${repo.likes} curtida${repo.likes !== 1 ? 's' : ''}`}
+          {`${repo.likes} curtidas`}
         </Text>
       </View>
 
